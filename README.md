@@ -39,13 +39,16 @@ messages:
 
 The release jar is generated in `build/libs/`.
 
-## Modrinth Release Setup
+## Modrinth
+
+Project page: https://modrinth.com/plugin/noportals-paper
 
 This repository is prepared for Modrinth publishing via GitHub Actions.
-To enable it, set these repository values:
+To enable releases, set this repository value:
 
 - GitHub Actions secret: `MODRINTH_TOKEN`
-- `gradle.properties`: replace `modrinth_project_id=SET_ME` with your Modrinth project slug or ID
+
+The repository already contains the correct Modrinth project ID in `gradle.properties`.
 
 ## License
 
