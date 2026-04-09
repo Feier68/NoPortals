@@ -1,0 +1,7 @@
+block-nether: true
+block-end: true
+pushback: true
+pushback-strength: 1.0
+messages:
+  nether-blocked: "<red>Du darfst Nether-Portale nicht betreten.</red>"
+  end-blocked: "<red>Du darfst End-Portale nicht betreten.</red>"
