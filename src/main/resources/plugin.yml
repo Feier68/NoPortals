@@ -1,0 +1,15 @@
+name: NoPortals
+version: '${version}'
+main: net.gigaclub.feier.noPortals.NoPortals
+api-version: '1.21'
+description: Blocks Nether and End portal entry with configurable pushback and MiniMessage messages.
+author: Feier68
+commands:
+  noportals:
+    description: Reload the NoPortals configuration
+    usage: /noportals reload
+    permission: noportals.reload
+permissions:
+  noportals.reload:
+    description: Allows reloading the NoPortals config
+    default: op

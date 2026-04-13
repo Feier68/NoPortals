@@ -1,0 +1,71 @@
+# User-specific stuff
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# Compiled / generated
+*.class
+*.log
+*.ctxt
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+*.stackdump
+.gradle/
+build/
+**/build/
+run/
+runs/
+
+# Local artifacts
+jar.b64
+.sisyphus/
+
+# OS/editor noise
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+gradle-app.setting
+.gradletasknamecache
+
+# Keep wrapper jar tracked
+!gradle-wrapper.jar
